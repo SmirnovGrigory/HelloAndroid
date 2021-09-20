@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), OtherActivity.class);
                 intent.putExtra(key, eName.getText().toString());
                 startActivity(intent);
-                finish();
+                //finish();
             }
         });
     }
